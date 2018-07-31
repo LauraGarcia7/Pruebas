@@ -17,7 +17,7 @@ import java.io.IOException;
  */
 public class EscrituraDatos {
     public static void main(String[] args) throws FileNotFoundException, IOException {
-     File archivo = new File ("ListaEstudiantes.txt");
+     File archivo = new File ("lectura2.txt");
      FileOutputStream fout = new FileOutputStream(archivo,true);
      DataOutputStream dout = new DataOutputStream(fout);
      dout.writeInt(6);

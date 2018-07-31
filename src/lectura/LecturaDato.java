@@ -17,7 +17,7 @@ import java.io.IOException;
  */
 public class LecturaDato {
     public static void main(String[] args) throws FileNotFoundException, IOException  {
-     File archivo = new File ("ListaEstudiantes.txt");
+     File archivo = new File ("lectura2.txt");
      FileInputStream fout = new FileInputStream(archivo);
      DataInputStream dout = new DataInputStream(fout);
      int dato = dout.readInt();
