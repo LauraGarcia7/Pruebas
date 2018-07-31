@@ -1,0 +1,10 @@
+123,TaniaCupitraDeLaHoz&,50,
+234,OmarRicadoQuevedo&&&,35,
+345,NataliaValeriaSanche,8,
+456,WinstonJairSmithCarr,82,
+567,ArchibaldArboledaPor,60,
+678,AndreaYaraMojarrango,10,
+789,AngiePiernagorda&&&&,23,
+890,KamilaCasteiblancoGo,19,
+901,KrristhyanCabanzoDia,20,
+
