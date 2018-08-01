@@ -18,20 +18,33 @@ public class EstoEsUnDemo2 {
     public static void main(String[] args) {
         try {
             // create a new RandomAccessFile with filename test
-            RandomAccessFile raf = new RandomAccessFile("C:\\Users\\brown\\Downloads\\Archivos\\src\\ListaEstudiantes.txt", "rw");
+            RandomAccessFile raf = new RandomAccessFile("C:\\Users\\Lala\\Documents\\NetBeansProjects\\Archivos\\src\\ListaEstudiantes.txt", "rw");
 
             // set the file pointer at 0 position
             raf.seek(0);
             String cadena;
-            System.out.println(raf.getFilePointer());
-            do{
+            int codigo, edad;
+            System.out.println("z " + raf.getFilePointer());
+            do {
+              /*  codigo = raf.readShort();
+                raf.skipBytes(20);
+                System.out.println("a " + raf.getFilePointer());
+                edad = raf.readShort();
+                raf.seek(3);
+                System.out.println("b " + raf.getFilePointer());
+                cadena = raf.readLine();
+                raf.seek(0);
+                System.out.println("c " + raf.getFilePointer());
+                
+                System.out.println("cedula:    " + codigo);
+                System.out.println("nombre:    " + cadena);
+                System.out.println("Edad:    " + edad);
+                raf.seek(raf.getFilePointer() + 24);
+                System.out.println("d " + raf.getFilePointer());
+*/
                 cadena=raf.readLine();
-                System.out.println("cadena:    "+ cadena);
-                
-            System.out.println(raf.getFilePointer());
-                
-                raf.seek(raf.getFilePointer()+30);
-            }while(cadena!=null);
+                System.out.println("  ._.  "+ cadena);
+            } while (cadena != null);
             ; //4 - bytes //Se posiciona en el byte especificado
 
 //         raf.skipBytes(4); //Salta numero de Bytes
